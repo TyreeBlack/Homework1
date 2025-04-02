@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Main CSS File-->
+    <link rel="stylesheet" href="css/menu.css">
+
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Chick Fil-A Menu | Homework #1</title>
+</head>
+
+<body>
+    <main>
+
+    <div class="topnav">
+        <img src="images/chick fil a.png" class="logo" width="80px" height="80px"> 
+        <a class="active" href="index.html">Menu</a>
+        <a href="#">Locations</a>
+        <i class="fa-solid fa-cart-shopping" style="color:red"></i>
+    </div>
+    <form action="Check-Out.php" method="post">
+        <div class="container">
+        <img src="images/chicken_nuggets.png" class="chicken_nuggets" width="80px" height="80px">
+        <label>Chick-fil-A® Nuggets</label> 
+        <p>$7.99</p>
+        <input type="hidden" name="chickennuggets_price" value="7.99">   
+        <input type="number" id="quantity-nuggets" value="1" min="1" max="10" class="quantity_field" name="quantity" placeholder="">
+        <i class="fa-solid fa-plus" id="plus-icon"></i>
+        <i class="fa-solid fa-minus" id="minus-icon"></i>
+        <button type="submit" class="btn-lg">Order now</button>
+        </div>
+    </div>
+
+    <div class="container-two">
+        <img src="images/Chicken Sandwich.png" class="chickensandwich" width="350px" height="350px">
+        <label class="chicken_sandwich">Chick-fil-A® Chicken Sandwich</label>
+        <p class="price-2">$5.78</p>
+           <input type="hidden" name="chickensandwich_price" value="5.78">
+           <input type="number" id="quantity-sandwich" value="1" min="1" max="10" class="quantity_field-two" name="quantity" placeholder="">
+           <i class="fa-solid fa-plus plus-two"></i>
+           <i class="fa-solid fa-minus minus-two">WWE</i>
+           <button type="submit" class="btn-view">Order now</button>
+    </div>
+
+    <div class="container-three">
+        <img src="images/frenchfries.png" class="frenchfries" width="340px" height="340px">
+        <label class="french_fries">Chick-fil-A Waffle Potato Fries®</label>
+        <p class="price-3">$4.10</p>
+        <input type="hidden" name="frenchfries_price" value="4.10">
+        <input type="number" id="quantity-frenchfries" value="1" min="1" max="10" class="quantity_field-three" name="quantity" placeholder="">
+        <i class="fa-solid fa-plus plus-three"></i>
+        <i class="fa-solid fa-minus minus-three"></i>
+        <button type="submit" class="btn">Order now</button>
+    </form>
+    </div>
+    </main>
+     <script>
+
+        // Chicken Nuggets
+        document.getElementById('plus-icon').onclick = function () {
+            let quantityInput = document.getElementById('quantity-nuggets');
+            let currentvalue = parseInt(quantityInput.value);
+
+            if (currentvalue < 10) {
+                 quantityInput.value = currentvalue + 1;
+            }
+        };
+        document.getElementById('minus-icon').onclick = function () {
+            let quantityInput = document.getElementById('quantity-nuggets');
+            let currentvalue = parseInt(quantityInput.value);
+
+            if (currentvalue > 1) {
+                 quantityInput.value = currentvalue - 1;
+            }
+        }
+     </script> 
+</body>
+</html>
+
+
