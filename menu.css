@@ -1,0 +1,304 @@
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    position: relative;
+    right: -10px;
+    bottom: -10px;
+}
+
+.fa-cart-shopping {
+    font-size: 35px;
+    position: relative;
+    bottom: -10px;
+    right: -1000px;
+    cursor: pointer;
+}
+
+.fa-plus {
+    color: rgb(175, 173, 173);
+    font-size: 30px;
+    font-weight: normal;
+    position: relative;
+    top: -160px;
+    right: -25px;
+    cursor: pointer;
+}
+
+.fa-minus {
+    color: rgb(175, 173, 173);
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    top: -160px;
+    right: -65px;
+    cursor: pointer;
+}
+
+.plus-two {
+    color: rgb(175, 173, 173);
+    font-size: 30px;
+    font-weight: normal;
+    position: relative;
+    top: -290px;
+    right: -75px;
+    cursor: pointer;
+}
+
+.minus-two {
+    color: rgb(175, 173, 173);
+    font-size: 30px;
+    font-weight: normal;
+    position: relative;
+    top: -290px;
+    right: -105px;
+    cursor: pointer;
+}
+
+.plus-three {
+    position: relative;
+    top: -270px;
+    right: -120px;
+}
+
+.minus-three {
+    font-size: 32px;
+    position: relative;
+    top: -270px;
+    right: -150px;
+}
+
+p {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    position: relative;
+    left: -40px;
+    top: -50px;
+}
+
+label {
+    color: orangered;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    right: -40px;
+    bottom: -4px;
+    text-align: left;
+    text-indent: 0;
+    white-space: nowrap;
+}
+
+.topnav {
+    background-color: white;
+    line-height: 60px;
+    box-shadow: 0 0 4px gray, 0 0 4px gray;
+    z-index: 2000;
+    position: sticky;
+    top: 0;
+}
+
+.topnav a {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    position: relative;
+    right: -800px;
+    bottom: -10px;
+}
+
+.topnav a.active {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    padding: 17px 17px;
+    position: relative;
+    bottom: -8px;
+    right: -700px;
+}
+
+.container {
+    background-color: transparent;
+    box-shadow: 0 0 4px gray, 0 0 8px gray;
+    width: 190px;
+    height: 120px;
+    padding: 80px;
+    border-radius: 32px;
+    border: 2px solid gray;
+    position: relative;
+    right: -200px;
+    bottom: -320px;
+}
+
+.chicken_nuggets {
+    width: 310px;
+    height: 210px;
+    position: relative;
+    top: -90px;
+    left: -70px;
+}
+
+.french_fries {
+    color: orangered;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    right: -40px;
+    top: -110px;
+    text-align: left;
+    text-indent: 0;
+    white-space: nowrap;
+}
+
+.container-two {
+    background-color: transparent;
+    box-shadow: 0 0 4px gray, 0 0 8px gray;
+    width: 240px;
+    height: 120px;
+    padding: 80px;
+    border-radius: 32px;
+    border: 2px solid gray;
+    position: relative;
+    right: -700px;
+    bottom: -45px;
+}
+
+.container-three {
+    background-color: transparent;
+    box-shadow: 0 0 4px gray, 0 0 8px gray;
+    width: 280px;
+    height: 120px;
+    padding: 100px;
+    border-radius: 32px;
+    border: 2px solid gray;
+    position: relative;
+    right: -180px;
+    bottom: -275px;
+}
+
+.chickensandwich {
+     position: relative;
+     top: -130px;
+     left: -40px;
+}
+
+.chicken_sandwich {
+    position: relative;
+    top: -140px;
+    right: -10px;
+}
+
+.frenchfries {
+    position: relative;
+    top: -120px;
+    left: -20px;
+}
+
+.price-2 {
+    top: -190px;
+    left: -60px;
+    position: relative;
+}
+
+.price-3 {
+    position: relative; 
+    top: -160px;
+
+}
+
+.quantity_field {
+    font-size: 17px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    position: relative;
+    right: -140px;
+    top: -205px;
+}
+
+.quantity_field-two {
+    font-size: 17px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    position: relative;
+    right: -190px;
+    top: -340px;
+}
+
+.quantity_field-three {
+    font-size: 17px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    position: relative;
+    right: -230px;
+    top: -320px;
+}
+
+.btn-lg {
+    color: white;
+    font-size: 17px;
+    background-color: rgb(216, 29, 13);
+    width: 210px;
+    padding: 25px;
+    border: 2px solid rgb(236, 233, 233);
+    border-radius: 40px;
+    position: relative;
+    outline-style: solid;
+    outline-width: 6px;
+    outline-color: white;
+    right: -40px;
+    top: -100px;
+    cursor: pointer;
+}
+
+.btn-view {
+    color: white;
+    font-size: 17px;
+    background-color: rgb(216, 29, 13);
+    width: 210px;
+    padding: 25px;
+    border: 2px solid rgb(236, 233, 233);
+    border-radius: 40px;
+    position: relative;
+    outline-style: solid;
+    outline-width: 6px;
+    outline-color: white;
+    right: -40px;
+    top: -240px;
+    cursor: pointer;
+}
+
+.btn {
+    color: white;
+    font-size: 17px;
+    background-color: rgb(216, 29, 13);
+    width: 210px;
+    padding: 25px;
+    border: 2px solid rgb(236, 233, 233);
+    border-radius: 40px;
+    position: relative;
+    outline-style: solid;
+    outline-width: 6px;
+    outline-color: white;
+    right: -50px;
+    top: -220px;
+    cursor: pointer;
+}
+

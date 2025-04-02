@@ -1,0 +1,162 @@
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-cart-shopping {
+    font-size: 35px;
+    position: relative;
+    right: -1300px;
+    cursor: pointer;
+}
+
+.logo {
+    position: relative;
+    right: -20px;
+    bottom: -20px;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 0 4px gray, 0 0 4px gray;
+    line-height: 70px;
+}
+
+.topnav a.active {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    padding: 17px 17px;
+    position: relative;
+    right: -600px;
+    text-decoration: none;
+}
+
+.cardholder {
+    color: rgb(150, 147, 147);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: -50px;
+    left: -50px;
+}
+
+.creditcard {
+    color: rgb(150, 147, 147);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: -20px;
+    left: -50px;
+}
+
+.expirationdate {
+    color: rgb(150, 147, 147);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: -10px;
+    left: -50px;
+}
+
+.cvv {
+    color: rgb(150, 147, 147);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    position: relative;
+    top: -50px;
+    right: -140px;
+}
+
+.zipcode {
+    color: rgb(150, 147, 147);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    position: relative;
+    bottom: -20px;
+    left: -50px;
+}
+
+.container {
+    background-color: transparent;
+    box-shadow: 0 0 4px gray, 0 0 4px gray;
+    width: 220px;
+    height: 320px;
+    padding: 70px;
+    border: 1px solid gray;
+    border-radius: 32px;
+    position: relative;
+    right: -600px;
+    bottom: -200px;
+}
+
+.cardholder_field {
+    width: 310px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    left: -60px;
+    top: -40px;
+}
+
+.credit_card_field {
+    width: 310px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    left: -60px;
+    top: -10px;
+}
+
+.expiration_field {
+    width: 110px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    left: -140px;
+    bottom: -25px;
+}
+
+.cvv_field {
+    width: 110px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    right: -60px;
+    top: -15px;
+}
+
+.zipcode_field {
+    width: 310px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    left: -60px;
+    bottom: -25px;
+}
+
+.btn-view {
+    font-size: 17px;
+    color: white;
+    background-color: rgb(204, 11, 11);
+    width: 270px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 32px;
+    position: relative;
+    left: -25px;
+    bottom: -70px;
+    cursor: pointer;
+}
